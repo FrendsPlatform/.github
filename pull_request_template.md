@@ -1,3 +1,24 @@
+## *Dear PR creator, please select one of the PR templates, then remove others and this text.*
+
+# <u style="color:orange">*Default PR template*</u>
+
+Please review my changes :)
+
+# <u style="color:orange">*Task Update PR template*</u>
+
+## Review Checklist
+
+- [ ] Task version updated (x.x.0)
+- [ ] CHANGELOG.md updated
+- [ ] Solution builds
+- [ ] Warnings resolved (if possible)
+- [ ] Typos resolved
+- [ ] Tests cover new code
+- [ ] Description how to run tests locally added to README.md (if needed)
+- [ ] All tests pass locally
+
+# <u style="color:orange">*Task Harmonization PR template*</u>
+
 ## Review Checklist
 
 ### 1. Frends Task Project File
@@ -50,13 +71,13 @@
 - [ ] Present: `Frends.*/Frends.*/migration.json`
     - [ ] Contains breaking change migration information for Frends if breaking changes exist
 - [ ] StyleCop.Analyzers suppression files added and setup:
-  - [ ] Present: `Frends.*/Frends.*/GlobalSuppressions.cs`
-  - [ ] Present: `Frends.*/Frends.*.Tests/GlobalSuppressions.cs`
-  - [ ] Follows standards from Frends Task Template
+    - [ ] Present: `Frends.*/Frends.*/GlobalSuppressions.cs`
+    - [ ] Present: `Frends.*/Frends.*.Tests/GlobalSuppressions.cs`
+    - [ ] Follows standards from Frends Task Template
 - [ ] Present: `.gitignore`
-  - [ ] Includes `.idea/` folders
+    - [ ] Includes `.idea/` folders
 - [ ] Present: `Frends.*/.gitignore`
-  - [ ] Includes `.idea/` folders
+    - [ ] Includes `.idea/` folders
 - [ ] Auto formatting applied
 
 ### 4. Source Code
@@ -75,12 +96,12 @@
 - Path: `.github/workflows/*.yml`
 - [ ] Task has required workflow files:
     - [ ] `*_release.yml`
-      - [ ] contains secret `feed_api_key: ${{ secrets.TASKS_FEED_API_KEY }}`
+        - [ ] contains secret `feed_api_key: ${{ secrets.TASKS_FEED_API_KEY }}`
     - [ ] `*_test_on_main.yml`
-      - [ ] contains secret `badge_service_api_key: ${{ secrets.BADGE_SERVICE_API_KEY }}`
+        - [ ] contains secret `badge_service_api_key: ${{ secrets.BADGE_SERVICE_API_KEY }}`
     - [ ] `*_test_on_push.yml`
-      - [ ] contains secret `badge_service_api_key: ${{ secrets.BADGE_SERVICE_API_KEY }}`
-      - [ ] contains secret `test_feed_api_key: ${{ secrets.TASKS_TEST_FEED_API_KEY }}`
+        - [ ] contains secret `badge_service_api_key: ${{ secrets.BADGE_SERVICE_API_KEY }}`
+        - [ ] contains secret `test_feed_api_key: ${{ secrets.TASKS_TEST_FEED_API_KEY }}`
 - [ ] default permissions set for `GITHUB_TOKEN`
 - [ ] `workdir: Frends.SYSTEM.ACTION`
 - [ ] `strict_analyzers: true`
