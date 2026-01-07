@@ -1,10 +1,12 @@
-## *Dear PR creator, please select one of the PR templates, then remove others and this text.*
+## Dear PR creator, please select one of the PR templates, then remove others and this text.
 
-# <u style="color:orange">*Default PR template*</u>
+---
+# *Default PR template*
 
 Please review my changes :)
 
-# <u style="color:orange">*Task Update PR template*</u>
+---
+# *Task Update PR template*
 
 ## Review Checklist
 
@@ -17,7 +19,8 @@ Please review my changes :)
 - [ ] Description how to run tests locally added to README.md (if needed)
 - [ ] All tests pass locally
 
-# <u style="color:orange">*Task Harmonization PR template*</u>
+---
+# *Task Harmonization PR template*
 
 ## Review Checklist
 
