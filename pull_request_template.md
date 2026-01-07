@@ -1,11 +1,13 @@
 ## Dear PR creator, please select one of the PR templates, then remove others and this text.
 
 ---
+
 # *Default PR template*
 
 Please review my changes :)
 
 ---
+
 # *Task Update PR template*
 
 ## Review Checklist
@@ -20,6 +22,7 @@ Please review my changes :)
 - [ ] All tests pass locally
 
 ---
+
 # *Task Harmonization PR template*
 
 ## Review Checklist
@@ -59,7 +62,10 @@ Please review my changes :)
 
 ### 3. Additional Files
 
-- [ ] Present: `Frends.*/LICENSE`
+- [ ] Present only one `LICENSE` file per repository
+    - [ ] Should be MIT License unless otherwise specified
+- [ ] Present only one `.gitignore` file per repository
+    - [ ] Includes `.idea/` folders
 - [ ] Present: `Frends.*/README.md`
     - [ ] Contains badges (build, license, coverage)
     - [ ] Includes developer setup instructions
@@ -69,6 +75,7 @@ Please review my changes :)
     - [ ] Includes all functional changes
     - [ ] Indicates breaking changes with upgrade notes
     - [ ] Avoids non-functional notes like "refactored xyz"
+    - [ ] Uses the [KeepAChangelog](https://keepachangelog.com/en/1.0.0/) format
 - [ ] Present: `Frends.*/Frends.*/FrendsTaskMetadata.json`
     - [ ] Contains task method reference `Frends.System.Action.System.Action`
 - [ ] Present: `Frends.*/Frends.*/migration.json`
@@ -77,10 +84,6 @@ Please review my changes :)
     - [ ] Present: `Frends.*/Frends.*/GlobalSuppressions.cs`
     - [ ] Present: `Frends.*/Frends.*.Tests/GlobalSuppressions.cs`
     - [ ] Follows standards from Frends Task Template
-- [ ] Present: `.gitignore`
-    - [ ] Includes `.idea/` folders
-- [ ] Present: `Frends.*/.gitignore`
-    - [ ] Includes `.idea/` folders
 - [ ] Auto formatting applied
 
 ### 4. Source Code
